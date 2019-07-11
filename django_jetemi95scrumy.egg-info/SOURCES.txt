@@ -1,0 +1,7 @@
+MANIFEST.in
+README.rst
+setup.py
+django_jetemi95scrumy.egg-info/PKG-INFO
+django_jetemi95scrumy.egg-info/SOURCES.txt
+django_jetemi95scrumy.egg-info/dependency_links.txt
+django_jetemi95scrumy.egg-info/top_level.txt
