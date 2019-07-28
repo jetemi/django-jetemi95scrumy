@@ -13,11 +13,11 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
-    description='A simple Django app to conduct Web-based polls.',
+    description='A simple Django app to organizing goals',
     long_description=README,
-    url='https://www.example.com/',
-    author='Your Name',
-    author_email='yourname@example.com',
+    url='https://www.linkedin.com/in/fadaremichael/',
+    author='Fadare Michael',
+    author_email='jetemi95@hotmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
