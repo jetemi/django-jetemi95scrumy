@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jetemi95scrumy.apps.Jetemi95ScrumyConfig', # adding jetemi95scrumy app to the project myscrumy
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -68,23 +69,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'myscrumy.wsgi.application'
-
-
-# Database
-# https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# This database connection connects to the MySQL database
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'jetemi95scrumy',
-#         'USER': 'root1',
-#         'PASSWORD': 'root1@123.',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
 
 #This database connection connects to the default django sqlite3 database
 
@@ -136,3 +120,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_REDIRECT_URL = '/jetemi95scrumy/'
+
+LOGOUT_REDIRECT_URL = '/jetemi95scrumy/accounts/login/'
