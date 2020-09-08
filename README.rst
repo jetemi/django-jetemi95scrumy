@@ -28,3 +28,6 @@ Quick start
    to create a model (you'll need the Admin app enabled).
 
 5. Visit http://127.0.0.1:8000/jetemi95scrumy/ to participate in the goal setting.
+
+Thanks.
+Michael
