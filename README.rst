@@ -1,4 +1,6 @@
-### This is not a complete project, it was created when I was learning Django.
+=====
+This is not a complete project, it was created when I was learning Django.
+=====
 
 =====
 Jetemi95scrumy
